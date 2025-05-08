@@ -19,4 +19,4 @@ Retrieval: After encoding, participants completed a free recall task. In the fre
  * [README.md](./README.md)
 
 ## Contact
-Angelique I. Delarazan | a.delarazan@wustl.edu
+Angelique I. Delarazan | a.delarazan@wustl.edu | https://aidelarazan.github.io/
