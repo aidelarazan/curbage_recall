@@ -1,0 +1,83 @@
+﻿subject,group,version,age,gender,hispanic,ethnicity
+301,younger,exp1,19,Female,No,Asian;Caucasian / White
+302,younger,exp1,19,Female,Yes,Prefer Not to Answer
+303,younger,exp1,20,Female,Yes,African American / Black;Caucasian / White;Native American
+304,younger,exp1,18,Female,Yes,Prefer Not to Answer
+305,younger,exp1,23,Female,No,Asian
+306,younger,exp1,22,Female,Yes,Not Listed Here
+307,younger,exp1,18,Female,No,Asian;Caucasian / White
+308,younger,exp1,22,Female,No,Caucasian / White
+309,younger,exp1,21,Female,No,Arab / Middle Eastern;Asian
+310,younger,exp1,20,Female,Yes,Not Listed Here
+310,younger,exp1,20,Female,Yes,Not Listed Here
+311,younger,exp1,19,Female,No,Asian;Caucasian / White
+312,younger,exp1,20,Female,No,African American / Black
+313,younger,exp1,18,Female,No,Asian
+314,younger,exp1,19,Female,No,Asian
+315,younger,exp1,20,Female,Yes,Native American
+316,younger,exp1,21,Female,No,Asian
+317,younger,exp1,18,Female,No,Asian
+318,younger,exp1,18,Female,Yes,Not listed here
+319,younger,exp1,21,Male,No,Asian
+320,younger,exp1,25,Female,Yes,Not listed here
+321,younger,exp1,20,Female,No,Asian
+401,older,exp1,79,Male,No,Caucasian / White
+402,older,exp1,75,Male,No,Caucasian / White
+403,older,exp1,69,Female,No,Caucasian / White
+404,older,exp1,70,Male,No,Caucasian / White
+405,older,exp1,75,Female,Yes,Caucasian / White
+406,older,exp1,79,Female,No,Caucasian / White
+407,older,exp1,81,Male,No,Caucasian / White
+408,older,exp1,80,Female,No,Caucasian / White
+409,older,exp1,70,Female,No,Caucasian / White
+410,older,exp1,61,Female,No,Asian
+411,older,exp1,65,Male,No,Caucasian / White
+412,older,exp1,66,Male,No,Caucasian / White
+413,older,exp1,66,Female,No,Not Listed Here
+414,older,exp1,66,Female,No,Asian
+415,older,exp1,79,Female,No,Caucasian / White
+416,older,exp1,70,Female,No,Caucasian / White
+417,older,exp1,79,Male,No,Caucasian / White
+418,older,exp1,69,Male,No,Caucasian / White
+419,older,exp1,68,Male,No,Caucasian / White
+420,older,exp1,93,Male,No,Caucasian / White
+421,older,exp1,72,Male,No,Asian
+101,older,exp2,69,Male,No,Caucasian / White
+102,older,exp2,79,Male,No,Caucasian / White
+107,older,exp2,65,Female,No,Caucasian / White
+108,older,exp2,71,Female,No,Caucasian / White
+113,older,exp2,67,Female,No,Caucasian / White
+114,older,exp2,81,Female,No,Caucasian / White
+119,older,exp2,69,Male,No,Caucasian / White
+125,older,exp2,74,Female,No,Caucasian / White
+145,older,exp2,75,Male,No,Caucasian / White
+146,older,exp2,60,Female,No,African American / Black
+151,older,exp2,75,Female,No,Caucasian / White
+160,older,exp2,68,Female,No,Caucasian / White
+163,older,exp2,79,Female,No,Caucasian / White
+164,older,exp2,74,Female,No,Caucasian / White
+172,older,exp2,62,Male,No,Caucasian / White
+201,younger,exp2,19,Male,No,Caucasian / White
+202,younger,exp2,19,Female,No,Asian
+207,younger,exp2,21,Male,No,Asian
+212,younger,exp2,23,Male,No,Asian; Caucasian / White
+214,younger,exp2,19,Male,No,African American / Black
+219,younger,exp2,20,Male,No,Caucasian / White
+220,younger,exp2,19,Male,No,Caucasian / White
+225,younger,exp2,18,Female,Yes,Caucasian / White
+226,younger,exp2,22,Male,No,Caucasian / White
+233,younger,exp2,20,Female,No,African American / Black
+237,younger,exp2,19,Female,No,Caucasian / White
+238,younger,exp2,18,Female,No,Caucasian / White
+243,younger,exp2,21,Female,No,Asian
+244,younger,exp2,22,Male,No,Asian
+249,younger,exp2,20,Male,Yes,Caucasian / White
+256,younger,exp2,21,Female,No,Asian
+261,younger,exp2,21,Female,No,Asian
+262,younger,exp2,18,Female,No,Caucasian / White
+264,younger,exp2,20,Male,No,Asian
+266,younger,exp2,20,Female,No,Asian
+267,younger,exp2,19,Male,No,Asian; Native Hawaiian / Pacific Islander
+276,younger,exp2,20,Female,No,Asian
+277,younger,exp2,20,Female,No,Caucasian / White
+278,younger,exp2,18,Female,No,African American / Black
