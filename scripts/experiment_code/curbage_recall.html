@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>curbage_recall</title>
+        <script src="jspsych/jspsych.js"></script>
+        <script src="jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+        <script src="jspsych/plugins/jspsych-survey-text.js"></script>
+        <script src="jspsych/plugins/jspsych-image-keyboard-response.js"></script>
+        <script src="jspsych/plugins/jspsych-video-keyboard-response.js"></script>
+        <script src="jspsych/plugins/jspsych-html-button-response.js"></script>
+        <script src="jspsych/plugins/jspsych-call-function.js"></script>
+        <script src="jspsych/external/instructions.js"></script>
+        <script src="jspsych/external/recognition_stim.js"></script>
+        <style> p { font-size: 32px; line-height: 2; } </style>
+        <link href="jspsych/css/jspsych.css" rel="stylesheet" type="text/css">
+    </head>
+    <body></body>
+    <script>
+// Curbage Recall
+// Angelique I. Delarazan
+
+// Update: Increased font size after feedback from pilot participant.
+
+// set subject ID in the URL
+var subject = jsPsych.data.getURLVariable('subject')
+var group = jsPsych.data.getURLVariable('group')
+
+// experimenter notification
+var notification = {
+  type: "html-keyboard-response",
+  stimulus: notification,
+  choices: [' '],
+  response_ends_trial: true
+};
+
+// introduction
+//  researcher set up
+var audio_check = {
+    type: 'html-button-response',
+    stimulus: audio_check,
+    choices: ['<p>Yes, I have tested the audio.</p>']
+};
+
+var consent_check = {
+  type: 'html-button-response',
+  stimulus: consent_check,
+  choices: ['<p>Yes, I have done this.</p>']
+};
+
+//  welcome message
+var welcome = {
+  type: "html-keyboard-response",
+  stimulus: welcome,
+  choices: [' '],
+  response_ends_trial: true
+}; 
+
+// video encoding //
+  //video encoding instructions
+  var video_encoding_instructions = {
+  type: "html-keyboard-response",
+  stimulus: video_encoding_instructions,
+  choices: [' '],
+  response_ends_trial: true
+}; 
+
+  //video encoding
+var video_encoding = {
+  type: 'video-keyboard-response',
+  stimulus: [
+    'jspsych/stimuli/curb_your_enthusiasm_s01e07.mp4'
+  ],
+  choices: "NO_KEYS",
+  trial_ends_after_video: true
+};
+
+// recall //
+    //recall instructions
+        //recall instructions (changes depends on condition)
+var recall_instructions1 = {
+  type: "html-keyboard-response",
+  stimulus: recall_instructions,
+  choices: [' '],
+  response_ends_trial: true
+}; 
+
+        //reminder: start audio recording
+var recall_instructions2 = {
+  type: "html-keyboard-response",
+//   stimulus: recall_instructionsA2,
+  choices: [' '],
+  response_ends_trial: true
+}; 
+        //recall stimulus (changes depends on condition)
+var recall_stimulus = {
+    type: 'html-keyboard-response',
+    stimulus: '<div style="font-size:60px;">+</div>',
+    choices: [' ']
+};
+
+        //reminder: stop audio recording
+var recall_end = {
+  type: "html-keyboard-response",
+  stimulus: recall_instructions_end,
+  choices: [' '],
+  response_ends_trial: true
+}; 
+
+// debriefing
+var debriefing = {
+  type: "html-keyboard-response",
+  stimulus: debriefing,
+  choices: [' '],
+  response_ends_trial: true
+};
+
+// experiment end
+var end = {
+  type: "html-keyboard-response",
+  stimulus: end,
+  choices: [' '],
+  response_ends_trial: true
+};
+
+jsPsych.init({
+  data: {subject:subject},
+  timeline: [
+    audio_check, 
+    consent_check,
+    welcome,
+    video_encoding_instructions,
+    // video_encoding,
+    notification,
+    recall_instructions1,
+    recall_stimulus,
+    notification,
+    recall_end,
+    notification,
+    debriefing,
+    end
+  ],
+  on_finish: function () {
+      jsPsych.data.addProperties({subject: subject, group:group});
+      var file_name = 'sub-' + subject + '_group-' + group + '_curbage_recall.csv';
+      jsPsych.data.get().localSave('csv',file_name);
+  }
+}
+);
+
+    </script>
+</html>
