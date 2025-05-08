@@ -1,5 +1,5 @@
 # Aging shifts recall of naturalistic events from temporal to topic organization
-Angelique I. Delarazan, Katherine March, Elena Markantonakis, June Dy, Zachariah M. Reagh
+Angelique I. Delarazan, Katherine March, Elena Markantonakis, June Dy, and Zachariah M. Reagh
 
 
 ## Project Description
